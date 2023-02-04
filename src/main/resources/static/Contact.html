@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 10px;
+            background-color: #808080;
+            padding: 10px;
+            }
+
+            .grid-container > div {
+            background-color: rgba(220, 220, 220, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            }
+
+            .item1 {
+            grid-row: 1 / span 2;
+            }
+            </style>
+        
+    </head>
+    <body>
+        
+        <header>
+            <div class="grid-container">
+                <div class="item1"><a href="index.html">Home</a></div>
+                <div class="item2"><a href="Categories.html">Categories</a></div>
+                <div class="item3"><a href="Products.html">Products</a></div>  
+                <div class="item4"><a href="Contact.html">Contact</a></div>
+            </div>
+        </header>    
+        
+        <div>
+            
+            <h1>Submit contact request</h1>
+            <form action="#" method="POST">
+                <label>Name</label>
+                <input type="text" placeholder="ingrese su nombre aqui."/>
+                
+                <br>
+                <label>Email</label>
+                <input type="text" placeholder="ingrese su nombre aqui."/>
+                
+                <br>
+                <label>Do you agree to be contacted by Tech Center Agents? </label>
+                <input type="checkbox"/>
+                
+                <br>
+                <input type="submit"/>
+                
+                <br>
+                <input type="reset"/>
+                
+            </form>   
+            
+            
+            
+        </div>
+        
+    </body>
+</html>
